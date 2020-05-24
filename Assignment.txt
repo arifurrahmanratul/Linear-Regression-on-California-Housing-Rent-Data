@@ -1,0 +1,48 @@
+NumPy:
+     Advantages: 
+     * Numpy support vectorized operations, like elementwise addition and multiplication, computing Kronecker product, etc. Python lists fail to support these features..
+     * NumPy arrays are much faster to access and create while having a smaller memory footprint. 
+     * Numpy support some specific scientific functions such as linear algebra.
+
+     Disdvantages: 
+     * NumPy itself supports “nan” but lack of cross-platform support within Python makes it difficult for the user.
+     * Insertion and deletion operations become costly as data is stored in contiguous memory locations as shifting it requires shifting.
+     * Algorithms that are not expressible as a vectorized operation will typically run slowly.
+
+     Performance: 
+     * due to its homogeneous type, it also frees the memory faster. 
+     * numpy is only really a performance improvement for large blocks of data. 
+     * NumPy are always smaller better performance than their Python List core library conterparts.
+   
+Pandas: 
+    Advantages:
+    * Makes data flexible and customizable
+    * Efficiently handles large data
+    * Less writing and more work done 
+
+    Disadvantages: 
+    * Poor compatibility for 3D matrices 
+    * Difficult syntax
+    * Steep learning curve  
+
+    Performance: 
+    * Pandas had gotten a nasty reputation for being “slow”
+    * Pandas code is fast and well-written
+    * it makes up for in being powerful and user-friendly.    
+
+Matplotlib:
+   Advantages: 
+   * It enables stakeholders and decision makers to analyze data visually. 
+   * It explores new patterns and reveals hidden patterns in the data 
+   * It identifies the areas that need attention or improvement
+
+   Disadvantages: 
+   * it may not be the best fit for time series data.
+   * the library is very low-level, which means that one needs to write more code to get the visualisation
+   * It is also very unwieldy when dealing with multiple datasets 
+
+   Performance:
+   * Matplotlib provides a couple ways to greatly reduce rendering time at the cost of a slight change. 
+   * exploring data in interactive mode or programmatically saving lots of plots, rendering performance can be a painful bottleneck in your pipeline.
+   * There is also a procedural "pylab" interface based on a state machine (like OpenGL), designed to closely resemble that of MATLAB, though its use is discouraged. 
+
